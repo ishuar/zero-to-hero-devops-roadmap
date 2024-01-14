@@ -1,22 +1,22 @@
-# Introduction
+<!-- # Introduction -->
 
 <!-- What is day one  -->
 
-## What is Terraform ?
+<!-- ## What is Terraform ? -->
 
 <!-- We focus on terraform open source not on terraform cloud-->
 
-## Why Terraform ?
+<!-- ## Why Terraform ? -->
 
-## Setting up Terraform
+<!-- ## Setting up Terraform -->
 
 <!-- How to install Terraform on multiple architectures-->
 <!-- visual code extensions -->
 
 
-## Tasks
+<!-- ## Tasks -->
 
-- Install Terraform and check its version.
+<!-- - Install Terraform and check its version. -->
 
 
 

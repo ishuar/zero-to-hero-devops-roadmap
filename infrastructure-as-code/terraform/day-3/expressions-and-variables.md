@@ -1,20 +1,20 @@
-# Introduction
+<!-- # Introduction -->
 
 <!-- day 3 introduction about different types of variables-->
 
 
-## Variables
+<!-- ## Variables -->
 
 <!-- TF_VAR, variable definition, priorities -->
 
-## Locals
+<!-- ## Locals -->
 
-## Outputs
+<!-- ## Outputs -->
 
-## Using Terraform Functions
+<!-- ## Using Terraform Functions -->
 
-## Terraform formatting
+<!-- ## Terraform formatting -->
 
-## Terraform Console
+<!-- ## Terraform Console -->
 
-## Demo Day 3
+<!-- ## Demo Day 3 -->

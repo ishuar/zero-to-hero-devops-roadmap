@@ -1,17 +1,16 @@
-# Introduction
+<!-- # Introduction -->
 
+<!-- ## Terraform Modules -->
 
-## Terraform Modules
+<!-- ## Common File Structure -->
 
-## Common File Structure
+<!-- ## Why Modules ? -->
 
-## Why Modules ?
+<!-- ## Best Practices -->
 
-## Best Practices
+<!-- ## Demo Day 5 -->
 
-## Demo Day 5
+<!-- ## Tasks -->
 
-## Tasks
-
-- Ask users to create a custom module for azure virtual network / AWS VPC
-- Modularise the infra creation in previous days
+<!-- - Ask users to create a custom module for azure virtual network / AWS VPC -->
+<!-- - Modularise the infra creation in previous days -->
