@@ -128,6 +128,8 @@ As a DevOps professional, your daily operations may not always involve direct in
 
 Whether you're configuring systems, managing applications, or automating tasks, a solid understanding of the Linux Filesystem Structure is an invaluable asset in your toolkit. Happy DevOps-ing!
 
+> If you found this article helpful, please don’t forget to Follow me on Github 👉 and star :star: the repo for further updates.
+
 ## More Helpful YouTube Video Resources
 
 This segment caters to individuals who may encounter challenges with text-based learning and have a preference for video tutorials, featuring live hands-on demonstrations.
