@@ -1,3 +1,14 @@
+- [Introduction](#introduction)
+- [File Types in Linux](#file-types-in-linux)
+- [Permissions Groups](#permissions-groups)
+- [Permissions Types](#permissions-types)
+- [Viewing the Permissions](#viewing-the-permissions)
+- [Permission References](#permission-references)
+- [Modifying the Permissions](#modifying-the-permissions)
+  - [Owners and Groups](#owners-and-groups)
+- [Conclusion](#conclusion)
+- [More Helpful YouTube Video Resources](#more-helpful-youtube-video-resources)
+
 ## Introduction
 
 Welcome to Day 3 of Linux from the "Zero to Hero DevOps Roadmap" series, where we unravel the essential elements of Linux for aspiring DevOps engineers. Today's focus is on a fundamental aspect that underpins secure and efficient operations in a Linux environment – **file permissions**.
@@ -65,9 +76,6 @@ As we know by now that in Linux, everything is a file. However, there are differ
    ```
 
 > Temporary pipe file is created for demo purposes only.
-> `</br>`
-
----
 
 `file` command can be used to get more information on the file type and its content.
 
