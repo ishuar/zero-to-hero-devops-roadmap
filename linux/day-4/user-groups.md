@@ -12,11 +12,11 @@
 
 ## Introduction
 
-Welcome to Day 4 of the linux fundamentals from Zero to Hero DevOps Roadmap series! Today, we'll learn into a critical aspect of Linux based environments: **user and groups management**.
+Welcome to Day 4 of the linux fundamentals from Zero to Hero DevOps Roadmap series! Today, we'll learn a critical aspect of Linux based environments: **user and groups management**.
 
 Just like file permissions, understanding how to manage users and groups is fundamental for ensuring security, access control, and proper resource allocation in a Linux environment.
 
-Let's dive in and explore the significance of user and groups management in our journey towards becoming proficient DevOps engineers.
+Let's dive in and explore the steps involved in users and groups management in our journey towards becoming proficient DevOps engineers.
 
 ## User Management
 
