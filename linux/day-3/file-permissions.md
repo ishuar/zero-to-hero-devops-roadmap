@@ -11,7 +11,7 @@
 
 ## Introduction
 
-Welcome to Day 3 of Linux from the "Zero to Hero DevOps Roadmap" series, where we unravel the essential elements of Linux for aspiring DevOps engineers. Today's focus is on a fundamental aspect that underpins secure and efficient operations in a Linux environment – **file permissions**.
+Welcome to Day 3 of the linux fundamentals from Zero to Hero DevOps Roadmap series! Today's focus is on a fundamental aspect that underpins secure and efficient operations in a Linux environment – **file permissions**.
 
 In the world of DevOps, understanding and managing file permissions is more than just a technical necessity; *it's a cornerstone of security, collaboration, and seamless workflow*
 
@@ -90,17 +90,17 @@ Example:
 
 Each file and directory has three user based permission groups:
 
-`owner` – The Owner permissions apply only to the owner of the file or directory, they will not impact the actions of other users.
-`group` – The Group permissions apply only to the group that has been assigned to the file or directory, they will not affect the actions of other users.
-`all users` – The All Users permissions apply to all other users on the system, this is the permission group that you want to watch the most.
+- `owner` – The Owner permissions apply only to the owner of the file or directory, they will not impact the actions of other users.
+- `group` – The Group permissions apply only to the group that has been assigned to the file or directory, they will not affect the actions of other users.
+- `all users` – The All Users permissions apply to all other users on the system, this is the permission group that you want to watch the most.
 
 ## Permissions Types
 
 Each file or directory has three basic permission types:
 
-`read` – The Read permission refers to a user’s capability to read the contents of the file.
-`write` – The Write permissions refer to a user’s capability to write or modify a file or directory.
-`execute` – The Execute permission affects a user’s capability to execute a file or view the contents of a directory.
+- `read` – The Read permission refers to a user’s capability to read the contents of the file.
+- `write` – The Write permissions refer to a user’s capability to write or modify a file or directory.
+- `execute` – The Execute permission affects a user’s capability to execute a file or view the contents of a directory.
 
 ## Viewing the Permissions
 
@@ -184,7 +184,6 @@ Modify the owner user and owner group for file `file-permissions.md` to `linux-u
 ## Conclusion
 
 Congratulations on completing Day 3 of Linux from "Zero to Hero DevOps Roadmap" series, where we explored the critical domain of Linux file permissions. As a DevOps engineer, mastering this fundamental aspect is not just about managing access; it's about fortifying the foundation of your system's security.
-
 
 > If you found this article helpful, please consider following me on GitHub 👉 and giving a star :star: to the repository for future updates.
 

@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Welcome to Day 2 of the linux fundamentals from Zero to Hero DevOps series! Today, we'll dive into essential 30 Linux commands that every DevOps enthusiast should be familiar with.
+Welcome to Day 2 of the linux fundamentals from Zero to Hero DevOps Roadmap series! Today, we'll dive into essential 30 Linux commands that every DevOps enthusiast should be familiar with.
 
 While this list isn't exhaustive, it provides a solid foundation for your journey into the Linux world. Let's get started!
 
@@ -50,7 +50,7 @@ For more advance usage of the commands please check their respective `man` pages
 
 ## Conclusion
 
-In conclusion, this tutorial has introduced you to the essential 30 Linux commands crucial for DevOps engineers. While these commands cover a wide range of tasks, it's important to note that this list is by no means exhaustive. Linux offers a rich set of commands, and depending on your role and specific use cases, you might discover others that become equally indispensable.
+Congratulations on completing Day 2 of Linux from "Zero to Hero DevOps Roadmap" series, where this tutorial has introduced you to the essential 30 Linux commands crucial for DevOps engineers. While these commands cover a wide range of tasks, it's important to note that this list is by no means exhaustive. Linux offers a rich set of commands, and depending on your role and specific use cases, you might discover others that become equally indispensable.
 
 To delve deeper into each command and explore additional functionalities, always refer to the relevant man pages. The journey into Linux proficiency is continuous, and as you navigate the command-line landscape, there's always more to learn and discover.
 
