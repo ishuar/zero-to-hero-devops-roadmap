@@ -11,7 +11,7 @@
 
 ## Introduction
 
-Welcome to Day 3 of Linux from the "Zero to Hero DevOps Roadmap" series, where we unravel the essential elements of Linux for aspiring DevOps engineers. Today's focus is on a fundamental aspect that underpins secure and efficient operations in a Linux environment – **file permissions**.
+Welcome to Day 3 of the linux fundamentals from Zero to Hero DevOps Roadmap series! Today's focus is on a fundamental aspect that underpins secure and efficient operations in a Linux environment – **file permissions**.
 
 In the world of DevOps, understanding and managing file permissions is more than just a technical necessity; *it's a cornerstone of security, collaboration, and seamless workflow*
 
@@ -184,7 +184,6 @@ Modify the owner user and owner group for file `file-permissions.md` to `linux-u
 ## Conclusion
 
 Congratulations on completing Day 3 of Linux from "Zero to Hero DevOps Roadmap" series, where we explored the critical domain of Linux file permissions. As a DevOps engineer, mastering this fundamental aspect is not just about managing access; it's about fortifying the foundation of your system's security.
-
 
 > If you found this article helpful, please consider following me on GitHub 👉 and giving a star :star: to the repository for future updates.
 

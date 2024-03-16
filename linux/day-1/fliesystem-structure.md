@@ -24,6 +24,8 @@
 
 ## Introduction
 
+Welcome to Day 1 of the linux fundamentals from Zero to Hero DevOps Roadmap series! Today, we'll dive into Linux file system that every DevOps enthusiast should be familiar with.
+
 Understanding the Linux Filesystem Structure from a DevOps perspective is pivotal for effective system administration, configuration management, and automation tasks. This guide equips DevOps users with the insights needed to navigate and leverage the filesystem efficiently.
 
 The key take way is **Everything is a file in linux system**, your devices, directories and regular files are all considered as files.
@@ -121,6 +123,8 @@ The `/var` was originally given its name because its contents was deemed variabl
 Be that as it may, `/var` contains things like logs in the `/var/log` subdirectories. Logs are files that register events that happen on the system. If something fails in the kernel, it will be logged in a file in `/var/log`; if someone tries to break into your computer from outside, your firewall will also log the attempt here. It also contains spools for tasks. These “tasks” can be the jobs you send to a shared printer when you have to wait because another user is printing a long document, or mail that is waiting to be delivered to users on the system.
 
 ## Conclusion
+
+Congratulations on completing Day 1 of Linux from "Zero to Hero DevOps Roadmap" series.
 
 Your system may have some more directories we haven’t mentioned above.
 
