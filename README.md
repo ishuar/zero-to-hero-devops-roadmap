@@ -20,7 +20,9 @@ managed within the footer file
   </p>
 </div>
 
+---
 >> **IMPORTANT:** [Progress of the content](#roadmap-structure) :white_check_mark: means completed, :x: means not started yet and (wip) means work in progress.
+---
 
 # Introduction
 
