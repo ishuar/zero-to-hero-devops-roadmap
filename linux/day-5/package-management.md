@@ -39,8 +39,8 @@ In order to perform the task of package management effectively, you need to be a
 | DISTRIBUTION | LOW-LEVEL TOOL                                                              | HIGH-LEVEL TOOL  |
 |--------------|-----------------------------------------------------------------------------|------------------|
 | Debian       | [`dpkg`](https://man7.org/linux/man-pages/man1/dpkg.1.html "dpkg man page") | apt-get/aptitude |
-| CentOS       | [`rpm`](https://rpm.org/ "rpm.prg")                                         | yum              |
-| openSUSE     | [`rpm`](https://rpm.org/ "rpm.prg")                                         | zypper           |
+| CentOS       | [`rpm`](https://rpm.org/ "rpm.org")                                         | yum              |
+| openSUSE     | [`rpm`](https://rpm.org/ "rpm.org")                                         | zypper           |
 
 > **INFO:**  ref to `rpm` man page at  [here](https://man7.org/linux/man-pages/man8/rpm.8.html "rpm man page"))
 
@@ -48,7 +48,7 @@ In order to perform the task of package management effectively, you need to be a
 #### Common Usage of Low-Level Tools
 
 
-1. Installing a package from a compiled (*.deb or *.rpm) file
+1. Installing a package from a compiled (*.deb or *.rpm) file.
 
 The downside of this installation method is that no dependency resolution is provided. You will most likely choose to install a package from a compiled file when such package is not available in the distribution’s repositories and therefore cannot be downloaded and installed through a high-level tool. Since low-level tools do not perform dependency resolution, they will exit with an error if we try to install a package with unmet dependencies.
 
@@ -56,7 +56,7 @@ The downside of this installation method is that no dependency resolution is pro
 $ dpkg -i file.deb 		## [Debian and derivative]
 ```
 
-2. Upgrading a package from a compiled file
+2. Upgrading a package from a compiled file.
 
 It will only upgrade an installed package manually when it is not available in the central repositories.
 
@@ -64,7 +64,7 @@ It will only upgrade an installed package manually when it is not available in t
 $ dpkg -i file.deb 		## [Debian and derivative]
 ```
 
-3. Listing installed packages
+3. Listing installed packages.
 
 When you first get your hands on an already working system, chances are you’ll want to know what packages are installed.
 
@@ -78,7 +78,7 @@ If you want to know whether a specific package is installed, you can pipe the ou
 $ dpkg -l | grep mysql-common  ## [Debian and derivative]
 ```
 
-4. Finding out which package installed a file
+4. Finding out which package installed a file.
 
 For example, which package installed `file_name` in system?
 
@@ -102,14 +102,14 @@ Before we start using the high-level tools, let’s learn some essential termino
 
 > **INFO:** To keep the hands-on spirit alive, let's assume we're using Debian and its derivatives. Feel free to experiment with OpenSUSE and CentOS to further enhance your skills!
 
-1. Update package repositories
+1. Update package repositories.
 
 we need to update our repositories on our Linux OS. We do that by using this command:
 
 ```bash
 $ sudo apt update
 ```
-2. Search for packages
+2. Search for packages.
 
 You can locate specific packages using `apt`, by typing the command `apt search` in your terminal. For instance, if you're searching for information related to `nginx`, you can type:
 
@@ -119,7 +119,7 @@ $ sudo apt search nginx
 
 This command will provide you with a list of packages related to Nginx, making it easier to identify and install the desired components on your Linux system.
 
-3. Installing a package from a repository
+3. Installing a package from a repository.
 
 While installing a package, you may be prompted to confirm the installation after the package manager has resolved all dependencies. High Level tools take cares of the dependency resolution.
 
@@ -129,7 +129,7 @@ While installing a package, you may be prompted to confirm the installation afte
 $ sudo apt install htop
 ```
 
-1. Removing a package
+1. Removing a package.
 
 The option `remove` will uninstall the package but leaving configuration files intact, whereas `purge` will erase every trace of the program from your system.
 
@@ -157,7 +157,7 @@ sudo apt autoremove htop
 > **INFO:** At the end of an apt command, don’t forget to keep your system up to date. Get familiar with this command: sudo apt upgrade. It helps you make sure your system has the latest updates.
 
 
-1. Displaying information about a package
+1. Displaying information about a package.
 
 The following command will display information about the birthday package.
 
