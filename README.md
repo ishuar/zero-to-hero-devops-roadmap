@@ -10,7 +10,7 @@ managed within the footer file
 <br />
 <div align="center">
 
-  <h1 align="center"><strong>Zero To Hero DevOps Roadmaps</strong></h1>
+  <h1 align="center"><strong>Zero To Hero DevOps Roadmaps (Work In Progress)</strong></h1>
   <p align="center">
     ⚡️Your guide to kickstart your career in DevOps!⚡️
     <br/>
@@ -19,6 +19,10 @@ managed within the footer file
     <br/>
   </p>
 </div>
+
+---
+>> **IMPORTANT:** [Progress of the content](#roadmap-structure) :white_check_mark: means completed, :x: means not started yet and (wip) means work in progress.
+---
 
 # Introduction
 
@@ -60,13 +64,13 @@ Feedback Loops: Regular feedback loops, including monitoring and user feedback, 
 
 As we all know DevOps is a never ending learning curve, however I would include at least the below technologies/concepts as a must know to be a DevOps Engineer. In my personal opinion the list can be followed in the mentioned order but not only limited to.
 
-1. [Linux Operation System](./linux/)
-2. [Fundamentals Of Networking](./networking/)
-3. [At Least One Public Cloud](./public-cloud/)
-4. [Version Control System](./version-control-system/)
-5. [Infrastructure As Code](./infrastructure-as-code)
-6. [containerization](./containerization)
-7. [Fundamentals Of Progamming Language](./programming-language/)
+1. [Linux Operation System](./linux/)  (wip)
+2. [Fundamentals Of Networking](./networking/) :x:
+3. [At Least One Public Cloud](./public-cloud/) :x:
+4. [Version Control System](./version-control-system/) :x:
+5. [Infrastructure As Code](./infrastructure-as-code) :x:
+6. [containerization](./containerization) :x:
+7. [Fundamentals Of Progamming Language](./programming-language/) :x:
 
 
 > DevOps Engineering is not at all limited to above concepts, but they are considered to be the most fundamentals.
