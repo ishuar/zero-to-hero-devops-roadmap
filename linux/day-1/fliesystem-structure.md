@@ -44,7 +44,7 @@ The `/boot` directory contains files required for starting your system. Do I hav
 
 ### /dev
 
-The `/dev` contains device files. Many of these are generated at boot time or even on the fly. For example, if you plug in a new webcam or a USB pendrive into your machine, a new device entry will automagically pop up here.
+The `/dev` contains device files. Many of these are generated at boot time or even on the fly. For example, if you plug in a new webcam or a USB pendrive into your machine, a new device entry will automatically pop up here.
 
 ### /etc
 
