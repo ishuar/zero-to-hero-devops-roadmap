@@ -1,4 +1,4 @@
-<!-- - Interview Questions -->
+<!-- TODO: Add Interview Questions Later -->
 
 ## Friendly Tip
 
