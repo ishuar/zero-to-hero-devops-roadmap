@@ -1,10 +1,10 @@
 - [Introduction](#introduction)
-  - [What is Package Management ?](#what-is-package-management-)
-  - [Package Managers](#package-managers)
-    - [High and low-level package tools](#high-and-low-level-package-tools)
-    - [Common Usage of Low-Level Tools](#common-usage-of-low-level-tools)
-    - [Common Usage of High-Level Tools](#common-usage-of-high-level-tools)
-    - [CentOS and Fedora Helpful Information](#centos-and-fedora-helpful-information)
+- [What is Package Management ?](#what-is-package-management-)
+- [Package Managers](#package-managers)
+  - [High and low-level package tools](#high-and-low-level-package-tools)
+  - [Common Usage of Low-Level Tools](#common-usage-of-low-level-tools)
+  - [Common Usage of High-Level Tools](#common-usage-of-high-level-tools)
+  - [CentOS and Fedora Helpful Information](#centos-and-fedora-helpful-information)
   - [Conclusion](#conclusion)
 - [More Helpful YouTube Video Resources](#more-helpful-youtube-video-resources)
 
@@ -14,7 +14,7 @@ Welcome to Day 5 of the linux fundamentals from Zero to Hero DevOps Roadmap seri
 
 Let's have a overview of what package management is.
 
-### What is Package Management ?
+## What is Package Management ?
 
 _Package management_ in Linux involves the installation, updating, and removal of software packages on a system. These packages typically contain precompiled binaries, libraries, and configuration files required for various applications to run smoothly.
 
@@ -22,7 +22,7 @@ In a nutshell, package management is a method of installing and maintaining (whi
 
 Let's dive into the world of package management in Linux and learn how to install, update, and remove software packages effectively.
 
-### Package Managers
+## Package Managers
 
 _Package managers_ are programs that automate software management tasks, ensuring consistency and efficiency across systems while resolving dependencies and conflicts.
 
@@ -31,7 +31,7 @@ The two prominent ones are [APT (Advanced Package Tool)](https://en.wikipedia.or
 Because different distribution families use different packaging systems (Debian: *.deb / CentOS: *.rpm / openSUSE: *.rpm built specially for openSUSE), a package intended for one distribution will not be compatible with another distribution.
 
 
-#### High and low-level package tools
+### High and low-level package tools
 
 In order to perform the task of package management effectively, you need to be aware that you will have two types of available utilities: low-level tools (which handle in the backend the actual installation, upgrade, and removal of package files), and high-level tools (which are in charge of ensuring that the tasks of dependency resolution and metadata searching -”data about the data”- are performed).
 
@@ -45,7 +45,7 @@ In order to perform the task of package management effectively, you need to be a
 > **INFO:**  ref to `rpm` man page at  [here](https://man7.org/linux/man-pages/man8/rpm.8.html "rpm man page"))
 
 
-#### Common Usage of Low-Level Tools
+### Common Usage of Low-Level Tools
 
 
 1. Installing a package from a compiled (*.deb or *.rpm) file.
@@ -90,7 +90,7 @@ $ dpkg --search file_name  ## [Debian and derivative]
 
 > **INFO:** `sudo` rights might be required if permissions are missing.
 
-#### Common Usage of High-Level Tools
+### Common Usage of High-Level Tools
 
 Before we start using the high-level tools, let’s learn some essential terminology:
 
@@ -183,7 +183,7 @@ $ sudo apt show birthday
 
 ```
 
-#### CentOS and Fedora Helpful Information
+### CentOS and Fedora Helpful Information
 
 The `yum` command is the same as the `apt` command. They use the same syntax for updating, searching, installing, removing and upgrading the system. Instead of usign apt (as we use in Ubuntu and Debian) for Centos, Red Hat, Fedora etc. we use the `yum` command. For example, `sudo yum search htop` or `sudo yum install htop` etc.
 
