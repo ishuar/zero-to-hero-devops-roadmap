@@ -28,6 +28,13 @@ $ ls -l
 
 This step is essential in any environment where scripts are used for automation or system management.
 
+3. Executing the shell script.
+
+```bash
+## <path_to_script>/<script_name>
+$ ./scripts/script.sh
+```
+
 ## Shebang
 
 The shebang (`#!`) line at the beginning of a shell script tells the system which interpreter to use to execute the script. Here's an example:
