@@ -21,12 +21,13 @@ managed within the footer file
 </div>
 
 ---
->> **IMPORTANT:** [Progress of the content](#roadmap-structure) :white_check_mark: means completed, :x: means not started yet and :construction: means work in progress.
+> [!WARNING]
+> [Progress of the content](#roadmap-structure) :white_check_mark: means completed, :x: means not started yet and :construction: means work in progress.
 ---
 
 # Introduction
 
-Welcome to the Zero to Hero DevOps Roadmap Repository – your guide to kickstarting and advancing your career in DevOps! Whether you're a beginner or seeking to level up your skills, this repository is designed to provide a structured path for your DevOps journey.
+Welcome to the Zero to Hero DevOps Roadmap Repository – your guide to kick starting and advancing your career in DevOps! Whether you're a beginner or seeking to level up your skills, this repository is designed to provide a structured path for your DevOps journey.
 
 "_There is an infinite number of resources available for DevOps. This repository is an effort to consolidate all the resources in a single location and maintain a systematic structure to provide a head start for aspiring DevOps professionals._"
 
@@ -72,7 +73,7 @@ As we all know DevOps is a never ending learning curve, however I would include 
 6. [containerization](./containerization) :x:
 7. [Fundamentals Of Progamming Language](./programming-language/) :x:
 
-
+> [!IMPORTANT]
 > DevOps Engineering is not at all limited to above concepts, but they are considered to be the most fundamentals.
 
 <!-- CONTRIBUTING -->
