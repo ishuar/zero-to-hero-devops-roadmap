@@ -93,8 +93,9 @@ Released under [MIT](/LICENSE) by [@ishuar](https://github.com/ishuar).
 <!-- CONTACT -->
 ## Contact
 
+- :dart: [Contact Profile](https://linktr.ee/ishuar)
 - 👯 [LinkedIn](https://linkedin.com/in/ishuar)
-- :dart: [Topmate](https://topmate.io/ishuar)
+
 
 <p align="right"><a href="#top">Back To Top ⬆️</a></p>
 
