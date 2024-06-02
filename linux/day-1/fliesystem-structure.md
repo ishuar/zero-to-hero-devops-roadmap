@@ -142,4 +142,5 @@ This segment caters to individuals who may encounter challenges with text-based 
 - [Linux FileSystem Explained for Beginners (HINDI)](https://www.youtube.com/watch?v=RCUeSps59rM)
 
 <!-- Info and disclaimer --->
->> **Note:**: The information here is sourced from [Linux Foundation: File System Explained](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-the-linux-filesystem-explained) article.
+> [!NOTE]
+> The information here is sourced from [Linux Foundation: File System Explained](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-the-linux-filesystem-explained) article.

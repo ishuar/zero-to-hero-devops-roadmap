@@ -195,4 +195,5 @@ This segment caters to individuals who may encounter challenges with text-based 
 - [Linux and Permissions Explained (Hindi)](https://www.youtube.com/watch?v=HgMHAbg4TUk)
 
 <!-- Info and disclaimer --->
->> **Note:**: Some information here is sourced from [Linux Foundation: Understanding Linux File Permissions](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-understanding-linux-file-permissions) article.
+> [!NOTE]
+>  Some information here is sourced from [Linux Foundation: Understanding Linux File Permissions](https://www.linuxfoundation.org/blog/blog/classic-sysadmin-understanding-linux-file-permissions) article.
