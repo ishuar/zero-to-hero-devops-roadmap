@@ -80,12 +80,12 @@ echo "Hello, $name!"
 
 > [!IMPORTANT]
 > Spaces are not allowed between variable definition and its value.
-> `name="DevOps"` :white_check_mark: `name = "DevOps"` :x:
+> For example `name="DevOps"` is :white_check_mark: , however `name = "DevOps"` is :x:
 
 > [!TIP]
 > Refer to [variables.sh](./scripts/variables.sh) for usage in file.
 
-## ControlFlow/Conditionals
+## Conditionals
 
 Control Flow is one of the most fundamental concepts of computer programming. Like in any other programming language, `if`, `if...else`, `if...elif...else`, and nested if statements in shell scripting are used to execute code when a specific condition is met.
 
@@ -112,7 +112,7 @@ else
 fi
 ```
 
-- Nested `if-else` block can be used when, one condition is satisfies then it again checks another condition
+- Nested `if-else` block can be also used when, one condition is satisfies then it again checks another condition. One of the form can be as follows:
 
 ```bash
 if CONDITION_01; then
@@ -132,7 +132,175 @@ fi
 
 > [!NOTE]
 > Generally conditions are [`test`](https://www.gnu.org/software/coreutils/manual/html_node/test-invocation.html#test-invocation) commands but not limited to them.
->  Refer to [control-flow.sh](./scripts/control-flow.sh) for usage in file.
+>  Refer to [conditionals.sh](./scripts/conditionals.sh) for usage in file.
 
 ## Loops
 
+Loops are used to repeatedly execute a block of code and  keep re-running them until a particular situation is reached. They are useful for automating repetitive tasks.
+
+Shell scripting supports several types of loops, and most common are `for`, `while`, and `until` loops.
+
+
+### for Loop
+
+The `for` loop iterates over a list of items and executes a block of code for each item.
+
+- `for` loop takes the following form:
+
+```bash
+for ITERATOR in LIST_OF_ITERATIONS; do
+  CODE_TO_EXECUTE
+done
+```
+- Simple Example:
+
+```bash
+for i in 1 2 3 4 5; do
+  echo "Iteration number $i"
+done
+```
+
+This loop will print the iteration number for each value in the list.
+
+### while Loop
+
+The while loop executes a block of code as long as a specified condition is true.
+
+- `while` loop takes the following form:
+
+```bash
+while CONDITION;do
+  CODE_TO_EXECUTE
+done
+```
+
+- Simple Example:
+
+```bash
+count=1
+while [ $count -le 5 ]; do
+  echo "Count is $count"
+  ((count++))
+done
+```
+
+This loop will print the count from 1 to 5.
+
+### until Loop
+
+The until loop is similar to the while loop, but it executes the block of code until the specified condition becomes true.
+
+- `until` loop takes the following form:
+
+```bash
+until CONDITION;do
+  CODE_TO_EXECUTE
+done
+```
+- Simple Example:
+
+```bash
+count=1
+until [ $count -gt 5 ]; do
+  echo "Count is $count"
+  ((count++))
+done
+```
+
+This loop will also print the count from 1 to 5.
+
+> [!TIP]
+> Refer to [loops.sh](./scripts/loops.sh) for usage in file.
+
+## break and continue
+
+You can control the loop execution using the break and continue statements. break exits the loop, while continue skips to the next iteration.
+
+For example:
+
+- In this loop the execution stops when `i` equals `5`.
+
+```bash
+for i in {1..10}; do
+  if [ "$i" -eq 5 ]; then
+    break
+  fi
+  echo "Iteration $i"
+done
+```
+
+- In this loop, the iteration for `i` equals `5` is skipped.
+
+```bash
+for i in {1..10}; do
+  if [ "$i" -eq 5 ]; then
+    continue
+  fi
+  echo "Iteration $i"
+done
+```
+
+## Functions
+
+In programming, A function is a block of code that performs some tasks and it can be called multiple times for performing tasks. It provides modularity in the program and reduces the code length.
+
+### Function Definition
+
+A function definition takes either of the following form:
+
+1. Using reserved word `function`.
+
+```bash
+function function_name {
+  CODE_TO_EXECUTE
+}
+```
+
+2. Using function name followed with parentheses`()`.
+
+```bash
+function_name () {
+  CODE_TO_EXECUTE
+}
+```
+
+Either of the above methods of specifying a function is valid. Both operate the same and there is no advantage or disadvantage to one over the other. It's really just personal preference.
+
+> [!NOTE]
+> I find the first option easier to use, but this is a very subjective opinion.
+
+### Function with arguments
+
+You can also pass multiple arguments to a function using `$<NUMBER>` with respective number as positional arguments.
+
+
+A function definition with two arguments takes the following form:
+
+```bash
+function function_name {
+  CODE_TO_EXECUTE $1 $2 # and so on
+}
+```
+> [!IMPORTANT]
+> Arguments can be used anywhere in function body (code) as per logic.
+
+> [!TIP]
+> Refer to [functions.sh](./scripts/functions.sh) for usage in file.
+
+## Conclusion
+
+Congratulations on completing Day 7 of Linux from "Zero to Hero DevOps Roadmap" series, where we explored fundamentals of shell scripting.
+
+This tutorial is just the tip of the iceberg that covers the fundamentals of shell scripting, including variables, conditionals, loops, functions, and the importance of executable permissions.
+
+Shell scripting, like any programming language, has extensive documentation. The goal of this guide is to give you a solid starting point. Don’t stop here—keep advancing your learning and exploring the depths of what shell scripting can offer.
+
+> If you found this article helpful, please consider following me on GitHub 👉 and giving a star :star: to the repository for future updates.
+
+
+## More Helpful YouTube Video Resources
+
+This segment caters to individuals who may encounter challenges with text-based learning and have a preference for video tutorials, featuring live hands-on demonstrations.
+
+- [Bash Scripting Tutorial For Beginners (English)](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
+- [Shell Script Complete Tutorial Playlist (Hindi)](https://www.youtube.com/playlist?list=PL6XT0grm_TfgvfQH58GEoEZrTyVl0ABnH)
