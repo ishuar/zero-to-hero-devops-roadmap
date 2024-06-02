@@ -1,3 +1,20 @@
+- [Introduction](#introduction)
+  - [Importance of Executable Permissions](#importance-of-executable-permissions)
+  - [Shebang](#shebang)
+    - [Usage](#usage)
+  - [Variables](#variables)
+  - [Conditionals](#conditionals)
+  - [Loops](#loops)
+    - [for Loop](#for-loop)
+    - [while Loop](#while-loop)
+    - [until Loop](#until-loop)
+  - [break and continue](#break-and-continue)
+  - [Functions](#functions)
+    - [Function Definition](#function-definition)
+    - [Function with arguments](#function-with-arguments)
+  - [Conclusion](#conclusion)
+  - [More Helpful YouTube Video Resources](#more-helpful-youtube-video-resources)
+
 # Introduction
 
 Welcome to Day 7 of the linux fundamentals from Zero to Hero DevOps Roadmap series!
