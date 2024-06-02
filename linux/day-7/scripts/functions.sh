@@ -27,15 +27,13 @@ welcome_02
 
 echo "$seperator"
 
-
 ## Function with positional arguments
-
 function welcome {
   echo "Welcome to $1 $2 repository"
   echo "function definition using arguments"
 }
 
-## function_name first_argument seconf_argument [[ and so on ]]
+## function_name first_argument second_argument [[ and so on ]]
 welcome "zero to hero devops roadmap" "github"
 
 echo "$seperator"
