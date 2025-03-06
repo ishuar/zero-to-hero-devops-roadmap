@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 ## Globals variables
-seperator="---------------------------------------------------"
+separator="---------------------------------------------------"
 
 ## Better output visualisation.
-echo "$seperator"
+echo "$separator"
 
 
 function welcome_01 {
@@ -15,7 +15,7 @@ function welcome_01 {
 ## Use function name to use it
 welcome_01
 
-echo "$seperator"
+echo "$separator"
 
 welcome_02 () {
   echo "welcome to zero to hero devops roadmap github repository"
@@ -25,7 +25,7 @@ welcome_02 () {
 ## Use function name to use it
 welcome_02
 
-echo "$seperator"
+echo "$separator"
 
 ## Function with positional arguments
 function welcome {
@@ -36,4 +36,4 @@ function welcome {
 ## function_name first_argument second_argument [[ and so on ]]
 welcome "zero to hero devops roadmap" "github"
 
-echo "$seperator"
+echo "$separator"
