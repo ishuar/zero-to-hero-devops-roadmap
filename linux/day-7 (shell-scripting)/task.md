@@ -22,7 +22,7 @@
       printf "Backup created at %s\n" "$backup_file"
       ```
     </details>
-    </br>
+
 3. Make it executable and run it:
     <details>
     <summary>Click to view <strong>Hint</strong> !! </summary>
@@ -32,7 +32,7 @@
       ./backup.sh ~/Documents
       ```
     </details>
-    </br>
+
 4. **Bonus**: Schedule it in a cron job to run every night at 2 AM.
 
 > [!TIP]

@@ -10,7 +10,7 @@
       find ~/DevOps -type f -mtime -1
       ```
     </details>
-    </br>
+
 4. List only files owned by you in `/etc`:
     <details>
     <summary>Click to view <strong>Hint</strong> !! </summary>
@@ -18,7 +18,7 @@
       find /etc -type f -user $(whoami) 2>/dev/null
       ```
    </details>
-    </br>
+
 5. Bonus: Monitor system resource usage using `top`, `htop`, or `vmstat`.
 
 > [!TIP]

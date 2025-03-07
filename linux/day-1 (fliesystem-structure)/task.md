@@ -9,7 +9,7 @@
       sudo du -ah /var/log | sort -rh | head -10
       ```
     </details>
-    </br>
+
 3. Check the **disk usage** of your root directory (`/`) and home directory (`~`) using:
     <details>
     <summary>Click to view <strong>Hint</strong> !! </summary>
@@ -19,7 +19,7 @@
       du -sh ~
       ```
     </details>
-    </br>
+
 
 4. **Bonus**: Create a summary (`filesystem_summary.txt`) with what you learned.
 

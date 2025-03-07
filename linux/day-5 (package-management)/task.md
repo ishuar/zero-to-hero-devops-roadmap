@@ -9,7 +9,7 @@
       sudo yum install tree htop   # (For CentOS/RHEL)
       ```
     </details>
-    </br>
+
 2. List all installed packages and filter ones related to "python":
     <details>
     <summary>Click to view <strong>Hint</strong> !! </summary>
@@ -19,7 +19,7 @@
       rpm -qa | grep python        # (For RHEL/CentOS)
       ```
     </details>
-    </br>
+
 3. Remove `tree` and check if it is removed:
     <details>
     <summary>Click to view <strong>Hint</strong> !! </summary>
@@ -28,7 +28,7 @@
       sudo apt remove tree -y
       ```
     </details>
-    </br>
+
 4. Check system updates without applying them.
     <details>
     <summary>Click to view <strong>Hint</strong> !! </summary>
@@ -37,5 +37,5 @@
       sudo apt update --dry-run
       ```
     </details>
-    </br>
+
 5. Bonus: Enable and configure automatic security updates.
