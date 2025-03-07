@@ -65,8 +65,8 @@ Feedback Loops: Regular feedback loops, including monitoring and user feedback, 
 
 As we all know DevOps is a never ending learning curve, however I would include at least the below technologies/concepts as a must know to be a DevOps Engineer. In my personal opinion the list can be followed in the mentioned order but not only limited to.
 
-1. [Linux Operation System](./linux/)  :construction:
-2. [Fundamentals Of Networking](./networking/) :x:
+1. [Linux Operation System](./linux/) :white_check_mark:
+2. [Fundamentals Of Networking](./networking/) :construction:
 3. [At Least One Public Cloud](./public-cloud/) :x:
 4. [Version Control System](./version-control-system/) :x:
 5. [Infrastructure As Code](./infrastructure-as-code) :x:
