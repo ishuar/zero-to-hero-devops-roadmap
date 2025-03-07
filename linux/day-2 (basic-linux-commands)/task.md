@@ -14,6 +14,7 @@
 4. List only files owned by you in `/etc`:
     <details>
     <summary>Click to view <strong>Hint</strong> !! </summary>
+
       ```bash
       find /etc -type f -user $(whoami) 2>/dev/null
       ```

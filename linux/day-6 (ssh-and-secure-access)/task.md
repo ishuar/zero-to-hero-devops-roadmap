@@ -22,9 +22,9 @@
     <details>
     <summary>Click to view <strong>Hint</strong> !! </summary>
 
-   ```bash
-      ssh user@remote_host
-   ```
+      ```bash
+          ssh user@remote_host
+      ```
     </details>
 
 4. Secure SSH by disabling root login (`PermitRootLogin no`) in `/etc/ssh/sshd_config`.
