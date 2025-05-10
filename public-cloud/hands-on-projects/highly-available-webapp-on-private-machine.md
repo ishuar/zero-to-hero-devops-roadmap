@@ -78,16 +78,21 @@ Design and deploy a **publicly accessible web application** using a **private vi
 * **Firewall Rules** – Traffic control
 * **Deployment Manager / Terraform** – Infrastructure as Code
 
+> [!Note]
+> Feel free to explore other cloud services, add layers of automation, or expand this project creatively to suit real-world scenarios or advanced learning objectives.
+
 ---
 
 ### Learning Focus
 
-* Networking with private/public subnets and routing
-* Load balancing and traffic distribution
-* Compute instance provisioning and hardening
-* Auto-scaling and high availability design patterns
-* Backup planning and disaster recovery
-* Infrastructure automation and repeatable provisioning using IaC
+1. Networking with private/public subnets and routing
+2. Load balancing and traffic distribution
+3. Compute instance provisioning and hardening
+4. Auto-scaling and high availability design patterns
+5. Backup planning and disaster recovery
+6. Infrastructure automation and repeatable provisioning using IaC
 
-> [!Note]
-> Feel free to explore other cloud services, add layers of automation, or expand this project creatively to suit real-world scenarios or advanced learning objectives.
+
+> [!TIP]
+> If you found this article helpful, please consider following me on GitHub 👉 and giving a star :star: to the repository for future updates.
+---
